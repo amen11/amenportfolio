@@ -15,7 +15,6 @@ export default function Nav() {
     <nav id="mainNav">
       <div className="nav-left">
         <div className="nav-avatar">
-          {/* Replace with: <img src="YOUR_PHOTO_URL" alt="Amen Allah Korchane" /> */}
           <div className="nav-avatar-fallback">AK</div>
         </div>
         <span className="nav-name">Amen Korchane</span>

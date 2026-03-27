@@ -1,4 +1,5 @@
 import '../styles/Hero.css';
+import amenPhoto from '../assets/amen.jpg';
 
 export default function Hero() {
   return (
@@ -12,8 +13,7 @@ export default function Hero() {
         <div className="hero-photo-wrap">
           <div className="hero-photo-ring">
             <div className="hero-photo-inner">
-              {/* Replace with: <img src="YOUR_PHOTO_URL" alt="Amen Allah Korchane" /> */}
-              <div className="hero-photo-initials">AA</div>
+              <img src={amenPhoto} alt="Amen Allah Korchane" />
             </div>
           </div>
           <div className="hero-status" />

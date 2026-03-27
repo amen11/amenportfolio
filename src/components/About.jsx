@@ -1,4 +1,5 @@
 import '../styles/About.css';
+import amenPhoto from '../assets/amen.jpg';
 
 const traits = [
   { icon: '⚡', text: 'Fast learner who thrives in collaborative teams' },
@@ -45,14 +46,7 @@ export default function About() {
           </div>
           <div className="about-side">
             <div className="about-img-frame reveal reveal-delay-2">
-              {/* Replace with: <img src="YOUR_PHOTO_URL" style={{width:'100%',height:'100%',objectFit:'cover'}} alt="Amen" /> */}
-              <div className="img-placeholder">
-                <div className="ip-icon">👨‍💻</div>
-                <span>Your photo here</span>
-              </div>
-            </div>
-            <div className="about-hint reveal reveal-delay-3">
-              💡 Add your photo by replacing the placeholder in <code>About.jsx</code>
+              <img src={amenPhoto} style={{width:'100%',height:'100%',objectFit:'cover'}} alt="Amen" />
             </div>
           </div>
         </div>
